@@ -1,6 +1,5 @@
 
 import React from "react"
-import "./style.css"
 
 const ShopCart = ({ shopItems}) => {
  
@@ -8,7 +7,7 @@ const ShopCart = ({ shopItems}) => {
     <>
       {shopItems.map((shopItems) => {
         return (
-          <div className='boxProduct'>
+          <div className='box'>
             <div className='product mtop'>
               <div className='img'>
                 <span className='discount'>New</span>

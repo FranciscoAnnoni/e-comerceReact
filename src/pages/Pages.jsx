@@ -3,7 +3,6 @@ import Home from "../components/MainPage/Home"
 import Shop from "../components/shops/Shop"
 import Annocument from "../components/annocument/Annocument"
 import Wrapper from "../components/NuestrosClientes/Wrapper"
-import Search from "../common/header/Search"
 
 const Pages = ({shopItems}) => {
   window.inicio = true;

@@ -1,7 +1,7 @@
 import React from "react"
 
-import ShopProducts from  "../components/shops/ShopProducts"
-import Categories from "../components/MainPage/Categories"
+import ShopProducts from  "../components/shops/Products/ShopProducts"
+import Categories from "../components/shops/Products/categories/Categories"
 
 
 

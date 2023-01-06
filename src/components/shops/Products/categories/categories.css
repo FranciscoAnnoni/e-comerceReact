@@ -1,12 +1,12 @@
 .category{
     z-index:1;
     position: absolute;
-    margin-left: 100px;
-    margin-top: 140px;
-    
+    margin-left: 90px;
+    margin-top: 180px;
 }
 /*---------category----------*/
 .contentWidth {
+
     width: 77%;
   }
   .category {
@@ -15,7 +15,6 @@
     width: 23%;
     height: 510px;
     border-radius: 5px;
-    padding-bottom: 510px;
   }
   .category img {
     width: 30px;
