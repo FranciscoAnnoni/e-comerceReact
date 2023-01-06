@@ -115,16 +115,16 @@ const Search = () => {
                 <Link to='/'><a className={btnState ? "active" : "inactive"} onClick={handleClick}> Inicio </a> </Link>
               </li>
               <li>
-                <Link to='/Pages' ><a className={btnState2 ? "active" : "inactive"} onClick={handleClick2}> Productos </a></Link>
+                <Link to='/productos' ><a className={btnState2 ? "active" : "inactive"} onClick={handleClick2}> Productos </a></Link>
               </li>
               <li>
-                <Link to='/user' ><a className={btnState3 ? "active" : "inactive"} onClick={handleClick3}>Trabajos Realizados</a></Link>
+                <Link to='/trabajos' ><a className={btnState3 ? "active" : "inactive"} onClick={handleClick3}>Trabajos Realizados</a></Link>
               </li>
               <li>
-                <Link to='/vendor' ><a className={btnState4 ? "active" : "inactive"} onClick={handleClick4}>Sobre nosotros</a></Link>
+                <Link to='/nosotros' ><a className={btnState4 ? "active" : "inactive"} onClick={handleClick4}>Sobre nosotros</a></Link>
               </li>
               <li >
-                <Link to='/contact' ><a className={btnState5 ? "active" : "inactive"} onClick={handleClick5}>Contacto</a></Link>
+                <Link to='/contacto' ><a className={btnState5 ? "active" : "inactive"} onClick={handleClick5}>Contacto</a></Link>
               </li>
             </ul>
             <script scr="script.js"></script>

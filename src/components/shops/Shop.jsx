@@ -30,7 +30,7 @@ const Shop = ({shopItems}) => {
             
            {/*--------------------------------------------------------------------------------*/}
            <div className='heading-right row '>
-              <Link to='/Pages' ><a onClick={()=>{}} className='colorLetra'>Ver Mas</a></Link>
+              <Link to='/productos' ><a className='colorLetra'>Ver Mas</a></Link>
             </div>
           </div>
         </div>
