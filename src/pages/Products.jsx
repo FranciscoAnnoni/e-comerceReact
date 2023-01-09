@@ -5,13 +5,7 @@ import Categories from "../components/shops/Products/categories/Categories"
 
 
 
-const Pages = ({shopItems}) => {
-  window.inicio = false;
-  window.pages = true;
-  window.trabajosRealizados = false;
-  window.sobreNosotros =false;
-  window.contacto = false;
-
+const Products = ({shopItems}) => {
   return (
     <>
       <Categories />
@@ -21,4 +15,4 @@ const Pages = ({shopItems}) => {
   )
 }
 
-export default Pages
+export default Products

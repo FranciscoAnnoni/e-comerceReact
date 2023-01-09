@@ -5,11 +5,6 @@ import Annocument from "../components/annocument/Annocument"
 import Wrapper from "../components/NuestrosClientes/Wrapper"
 
 const Pages = ({shopItems}) => {
-  window.inicio = true;
-  window.pages = false;
-  window.trabajosRealizados = false;
-  window.sobreNosotros =false;
-  window.contacto = false;
 
   return (
     <>

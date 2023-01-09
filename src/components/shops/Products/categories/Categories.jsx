@@ -1,69 +1,60 @@
 import React from "react"
 import "./categories.css"
-
+import { NavLink } from "react-router-dom"
 
 const Categories = () => {
   const data = [
     {
       cateImg: "./images/category/cat1.png",
-      cateName: "Fashion",
+      cateName: "Todos los Productos",
+      url: "/productos",
     },
     {
       cateImg: "./images/category/cat2.png",
-      cateName: "Electronic",
+      cateName: "Relojes de Pared",
+      url: "/productos-relojesPared",
     },
     {
       cateImg: "./images/category/cat3.png",
-      cateName: "Cars",
+      cateName: "Relojes de Pulsera",
+      url: "/productos-relojesMano",
     },
     {
       cateImg: "./images/category/cat4.png",
-      cateName: "Home & Garden",
+      cateName: "Lapiceras",
+      url: "/productos-lapiceras",
     },
     {
       cateImg: "./images/category/cat5.png",
-      cateName: "Gifts",
-    },
-    {
-      cateImg: "./images/category/cat6.png",
-      cateName: "Music",
-    },
-    {
-      cateImg: "./images/category/cat7.png",
-      cateName: "Health & Beauty",
-    },
-    {
-      cateImg: "./images/category/cat8.png",
-      cateName: "Pets",
-    },
-    {
-      cateImg: "./images/category/cat9.png",
-      cateName: "Baby Toys",
-    },
-    {
-      cateImg: "./images/category/cat10.png",
-      cateName: "Groceries",
-    },
-    {
-      cateImg: "./images/category/cat11.png",
-      cateName: "Books",
+      cateName: "Otros",
+      url: "/productos-otros",
     },
   ]
+
+  const categoria = data.map(({cateImg,cateName,url}, index) => {
+    return (
+      
+      <li key ={index} className='categoryes'>
+        <NavLink exact to={url}>
+        <div className='box'>
+              <img src={cateImg}/>
+              <a activeClassName="active">{cateName}</a>
+        </div>
+        </NavLink>
+
+      </li>
+      
+    )
+    
+  })
+
 
   return (
     <>
       <div className='category'>
-        {data.map((value, index) => {
-          return (
-            <div className='box f_flex' key={index}>
-              <img src={value.cateImg} alt='' />
-              <span>{value.cateName}</span>
-            </div>
-          )
-        })}
+       <ul>{categoria}</ul> 
       </div>
     </>
   )
 }
-
 export default Categories

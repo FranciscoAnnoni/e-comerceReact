@@ -2,14 +2,19 @@
   margin-top: -20px;
   margin-left: -90px;
 }
-
+.heading-middle1 {
+  margin: auto;
+  text-align: center;
+  padding-block: 35px;
+  font-size: 20px;
+}
 .containerShop {
   max-width: 100%;
 }
 
-.d_flexShop{
+.d_flexShop1{
   margin-left: 100px;
-  padding-left: 15%;
+  padding-left: 25%;
 }
 
 .shop .category {

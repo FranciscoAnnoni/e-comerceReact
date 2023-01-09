@@ -11,7 +11,16 @@ const Navbar = () => {
       })
     const [MobileMenu, setMobileMenu] = useState(false);
 
-    const menuList = MenuList.map(({url, title}, index) => {
+    function devolverURL(url, lista){
+      if(lista.some(window.location.pathname)){
+        return window.location.pathname
+      } else return url
+    }
+
+    console.log(window.location.pathname);
+
+    const menuList = MenuList.map(({url, title,url1}, index) => {
+    
         return (
             <li key ={index}>
                <NavLink exact to={url}><a activeClassName="active">{title}</a></NavLink>
