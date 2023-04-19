@@ -60,9 +60,12 @@
 .shop .product {
   transition: 0.5s;
 }
-.shop .product:hover {
-  box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+
+.product:hover{
+  box-shadow: rgb(43 52 69 /40%) 0px 5px 20px;
+
 }
+
 .heading-right{
   margin: auto;
 

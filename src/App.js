@@ -5,11 +5,16 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Pages from "./pages/Pages"
 import Footer from "./common/footer/Footer"
 import Products from "./pages/Products"
+
+
 import Navbar from "./common/header/Navbar"
 import ScrollToTop from "./components/scrollToTop"
 
 import Data from "./components/Data"
 import Sdata from "./components/shops/Sdata"
+
+
+
 
 import Relojes from "./components/InformacionProductos/Relojes.js"
 import RelojesDeMano from "./components/InformacionProductos/RelojesDeMano"
@@ -49,41 +54,55 @@ function App() {
           <ScrollToTop />
             <Products shopItems={(shopItems)}/>
             {/*<Shoping shopItems={(relojes)}/>*/}
+          </Route>
 
+          {/*--------------------------------------*/}
           <Route path='/trabajos' exact>
           <ScrollToTop />
-            <Pages shopItems={shopItems}/>
           </Route>
 
           <Route path='/nosotros' exact>
           <ScrollToTop />
-            <Pages shopItems={shopItems} />
           </Route>
 
           <Route path='/contacto' exact>
           </Route>  
+           {/*--------------------------------------*/}
+
 
           {/*Todos los productos de papa*/}
-            
-          </Route>
-          <Route path='/productos/:id' exact>
-          <ScrollToTop />
-            <span>hola</span>
-          <Prod shopItems={(shopItems)}/>
-          </Route>
+          
 
           <Route path='/productos-relojesPared' exact>
           <Products shopItems={(relojes)}/>
+          </Route>
+          
+          <Route path='/productos-relojesPared/:id' exact>
+          <ScrollToTop />
+            <span>atras</span>
+          <Prod shopItems={(relojes)}/>
           </Route>
 
           <Route path='/productos-relojesMano' exact>
           <Products shopItems={(relojesDeMano)}/>
           </Route>
 
+          <Route path='/productos-relojesMano/:id' exact>
+          <ScrollToTop />
+            <span>atras</span>
+          <Prod shopItems={(relojesDeMano)}/>
+          </Route>
+
           <Route path='/productos-lapiceras' exact>
           <Products shopItems={(lapicera)}/>
           </Route>
 
+          <Route path='/productos-lapiceras/:id' exact>
+          <ScrollToTop />
+            <span>atras</span>
+          <Prod shopItems={(lapicera)}/>
+          </Route>
+          
         </Switch>
         <Footer />
       </Router>
