@@ -2,6 +2,7 @@ const Relojes = {
   relojes: [
     {
       id: 1,
+      path:"/productos-relojesPared",
       cover: "./images/shops/shops-12.jpg",
       cover1: "./images/shops/shops-15.jpg",
       cover2: "./images/shops/shops-13.jpg",
@@ -12,6 +13,7 @@ const Relojes = {
     },
     {
       id: 2,
+      path:"/productos-relojesPared",
       cover: "./images/shops/shops-14.png",
       name: "Reloj Romano",
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.",
@@ -20,6 +22,7 @@ const Relojes = {
     },
     {
       id: 3,
+      path:"/productos-relojesPared",
       cover: "./images/shops/shops-13.jpg",
       name: "Reloj de Cocacola V1",
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.",
@@ -28,6 +31,7 @@ const Relojes = {
     },
     {
       id: 4,
+      path:"/productos-relojesPared",
       cover: "./images/shops/shops-15.jpg",
       name: "Reloj de Cocacola V2",
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.",
@@ -36,6 +40,7 @@ const Relojes = {
     },
     {
       id: 5,
+      path:"/productos-relojesPared",
       cover: "./images/shops/shops-12.jpg",
       name: "Reloj grande",
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.",
@@ -44,6 +49,7 @@ const Relojes = {
     },
     {
       id: 6,
+      path:"/productos-relojesPared",
       cover: "./images/shops/shops-12.jpg",
       name: "Reloj grande",
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.",
@@ -52,6 +58,7 @@ const Relojes = {
     },
     {
       id: 7,
+      path:"/productos-relojesPared",
       cover: "./images/shops/shops-12.jpg",
       name: "Reloj grande",
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.",
@@ -60,6 +67,7 @@ const Relojes = {
     },
     {
       id: 8,
+      path:"/productos-relojesPared",
       cover: "./images/shops/shops-12.jpg",
       name: "Reloj grande",
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.",
@@ -68,6 +76,7 @@ const Relojes = {
     },
     {
       id: 9,
+      path:"/productos-relojesPared",
       cover: "./images/shops/shops-12.jpg",
       name: "Reloj grande",
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.",
@@ -76,6 +85,7 @@ const Relojes = {
     },
     {
       id: 10,
+      path:"/productos-relojesPared",
       cover: "./images/shops/shops-12.jpg",
       name: "Reloj grande",
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.",
@@ -84,6 +94,7 @@ const Relojes = {
     },
     {
       id: 11,
+      path:"/productos-relojesPared",
       cover: "./images/shops/shops-12.jpg",
       name: "Reloj grande",
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.",
@@ -92,6 +103,7 @@ const Relojes = {
     },
     {
       id: 12,
+      path:"/productos-relojesPared",
       cover: "./images/shops/shops-12.jpg",
       name: "Reloj grande",
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.",
@@ -100,6 +112,7 @@ const Relojes = {
     },
     {
       id: 13,
+      path:"/productos-relojesPared",
       cover: "./images/shops/shops-12.jpg",
       name: "Reloj grande",
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.",
@@ -108,6 +121,7 @@ const Relojes = {
     },
     {
       id: 14,
+      path:"/productos-relojesPared",
       cover: "./images/shops/shops-12.jpg",
       name: "Reloj grande",
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.",
@@ -116,4 +130,4 @@ const Relojes = {
     },
   ],
 }
-export default Relojes
+export default Relojes
