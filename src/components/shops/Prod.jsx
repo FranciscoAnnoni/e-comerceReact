@@ -64,6 +64,8 @@ const Prod = ({ shopItems }) => {
 
   const itemsRecomendados = getRelatedItems(shopItems , object.id);
 
+   console.log(itemsRecomendados);
+
   // Renderizamos el componente
   return (
     <>
@@ -95,13 +97,19 @@ const Prod = ({ shopItems }) => {
           <button type="button" class="buy-now-btn"><i class="fa fa-wallet"></i>  Estoy interesado</button>
            </div>
          </div>
+
+         
        </div>
+       <div className="product-div2">
+    <div className="img-container2">
+    <div className='product-content2  grid1'>
+    <ShopCart shopItems={itemsRecomendados} />
+     </div>
+     </div>
+     </div>
      </div>
     </div>
 
-    <div className='product-content  grid1'>
-    <ShopCart shopItems={itemsRecomendados} />
-    </div>
     </>
   )
 }

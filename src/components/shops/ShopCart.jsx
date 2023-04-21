@@ -38,7 +38,8 @@ function path(valor){
 
               <div className='img'>
                 <span className='discount'>New</span>
-                <img src={shopItems.cover} alt='' />
+                <img src={"." + shopItems.cover} alt='' />
+                
                 <div className='product-like'>
                 </div>
               </div>
