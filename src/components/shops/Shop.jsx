@@ -30,7 +30,9 @@ const Shop = ({shopItems}) => {
             
            {/*--------------------------------------------------------------------------------*/}
            <div className='heading-right row '>
-              <Link to='/productos' ><a className='colorLetra'>Ver Mas</a></Link>
+           <Link to='/productos'>
+               <button className='colorLetra' type='button'>Ver Mas</button>
+            </Link>
             </div>
           </div>
         </div>

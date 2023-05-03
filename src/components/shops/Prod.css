@@ -1,3 +1,25 @@
+/*
+.atras {
+  position: absolute;
+  top: 140px;
+  left: 200px;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 2px;
+
+  background-color:#8b0024;
+  border: 2px solid #000;
+  color: #fff;
+}
+
+.atras:hover {
+  background-color: #fff;
+
+  color: #000;
+  cursor: pointer;
+}
+*/
+
 .product-content2 img {
     width: 57%;
   }

@@ -19,7 +19,6 @@ import Sdata from "./components/shops/Sdata"
 import Relojes from "./components/InformacionProductos/Relojes.js"
 import RelojesDeMano from "./components/InformacionProductos/RelojesDeMano"
 import Lapiceras from "./components/InformacionProductos/Lapiceras"
-import Shoping from "./components/shops/Products/Shoping"
 
 import Prod from "./components/shops/Prod"
 
@@ -79,7 +78,6 @@ function App() {
           
           <Route path='/productos-relojesPared/:id' exact>
           <ScrollToTop />
-            <span>atras</span>
           <Prod shopItems={(relojes)}/>
           </Route>
 
@@ -89,7 +87,6 @@ function App() {
 
           <Route path='/productos-relojesMano/:id' exact>
           <ScrollToTop />
-            <span>atras</span>
           <Prod shopItems={(relojesDeMano)}/>
           </Route>
 
@@ -99,7 +96,6 @@ function App() {
 
           <Route path='/productos-lapiceras/:id' exact>
           <ScrollToTop />
-            <span>atras</span>
           <Prod shopItems={(lapicera)}/>
           </Route>
           

@@ -7,20 +7,13 @@ import { Link } from "react-router-dom"
 const ShopCart = ({ shopItems}) => {
   const location = window.location.pathname;
 
-  /*
-  function path(valor){
-    if(valor == '/'){
-      return "/productos"
-    } else return valor
-  }
-*/
 function hayNumero(texto) {
   var expresion = /\d+/;
   return expresion.test(texto);
 }
 
 function path(valor){
-  if(valor == '/'){
+  if(valor === '/'){
     return "/productos";
   } else if(hayNumero(valor)){
     return shopItems[0].path;

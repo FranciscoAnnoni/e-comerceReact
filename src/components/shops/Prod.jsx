@@ -1,4 +1,3 @@
-
 import React, { useRef, useState, useEffect } from "react"
 import "./Prod.css"
 import { useParams } from "react-router-dom"
@@ -77,9 +76,9 @@ const Prod = ({ shopItems }) => {
                 <img src={"." + object.cover} alt="" ref={imgContainerRef} />
               </div>
               <div className="hover-container" ref={hoverContainerRef}>
-                <div><img src={"." + object.cover} ref={el => hoverImagesRefs.current[0] = el} /></div>
-                <div><img src={"." + object.cover1} ref={el => hoverImagesRefs.current[1] = el} /></div>
-                <div><img src={"." + object.cover2} ref={el => hoverImagesRefs.current[2] = el} /></div>
+                <div><img alt='' src={"." + object.cover} ref={el => hoverImagesRefs.current[0] = el} /></div>
+                <div><img alt='' src={"." + object.cover1} ref={el => hoverImagesRefs.current[1] = el} /></div>
+                <div><img alt='' src={"." + object.cover2} ref={el => hoverImagesRefs.current[2] = el} /></div>
               </div>
             </div>
             <div className="product-div-right">

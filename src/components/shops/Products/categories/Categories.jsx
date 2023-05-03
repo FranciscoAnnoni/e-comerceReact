@@ -33,28 +33,22 @@ const Categories = () => {
 
   const categoria = data.map(({cateImg,cateName,url}, index) => {
     return (
-      
-      <li key ={index} className='categoryes'>
-        <NavLink exact to={url}>
-        <div className='box'>
-              <img src={cateImg}/>
-              <a activeClassName="active">{cateName}</a>
-        </div>
+      <li key={index} className='categoryes'>
+        <NavLink exact to={url} href={url}>
+          <div className='box'>
+            <img src={cateImg} alt={cateName} />
+            <a activeClassName="active">{cateName}</a>
+          </div>
         </NavLink>
-
       </li>
-      
     )
-    
   })
 
-
   return (
-    <>
-      <div className='category'>
-       <ul>{categoria}</ul> 
-      </div>
-    </>
+    <div className='category'>
+      <ul>{categoria}</ul> 
+    </div>
   )
 }
+
 export default Categories
