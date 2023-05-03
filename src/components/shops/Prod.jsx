@@ -63,8 +63,6 @@ const Prod = ({ shopItems }) => {
 
   const itemsRecomendados = getRelatedItems(shopItems , object.id);
 
-   console.log(itemsRecomendados);
-
   // Renderizamos el componente
   return (
     <>
@@ -85,15 +83,15 @@ const Prod = ({ shopItems }) => {
               <span className="product-name">{object.name}</span>
               <span className="product-price">${object.price}.00</span>
               <div className="product-rating">
-                <span><i class="fa fa-star"></i></span>
-          <span><i class="fa fa-star"></i></span>
-          <span><i class="fa fa-star"></i></span>
-          <span><i class="fa fa-star"></i></span>
-          <span><i class="fa fa-star"></i></span>
+                <span><i className="fa fa-star"></i></span>
+          <span><i className="fa fa-star"></i></span>
+          <span><i className="fa fa-star"></i></span>
+          <span><i className="fa fa-star"></i></span>
+          <span><i className="fa fa-star"></i></span>
            </div>
-           <p class="product-description">{object.description}</p>
-          <div class="btn-groups">
-          <button type="button" class="buy-now-btn"><i class="fa fa-wallet"></i>  Estoy interesado</button>
+           <p className="product-description">{object.description}</p>
+          <div className="btn-groups">
+          <button type="button" className="buy-now-btn"><i className="fa fa-wallet"></i>  Estoy interesado</button>
            </div>
          </div>
 

@@ -6,13 +6,14 @@ import "./Header.css"
 
 const Navbar = () => {
     const [MobileMenu, setMobileMenu] = useState(false);
-    const menuList = MenuList.map(({url, title,url1}, index) => {
-  
-        return (
-            <li key ={index}>
-               <NavLink exact to={url}><a href='/' activeClassName="active">{title}</a></NavLink>
-            </li>
-        );
+    const menuList = MenuList.map(({ url, title }, index) => {
+      return (
+        <li key={index}>
+          <NavLink exact to={url}>
+            {title}
+          </NavLink>
+        </li>
+      );
     });
 
     return (
@@ -24,7 +25,7 @@ const Navbar = () => {
             <a className="logo-letra"  href="/">EMPRESSARIA</a>
           </div>
           
-          <div class='navlink'>
+          <div className='navlink'>
             <nav>
                 <ul className={MobileMenu ? "nav-links-MobileMenu" : "link f_flex capitalize"} onClick={() => setMobileMenu(false)}> {menuList}</ul>
              </nav>

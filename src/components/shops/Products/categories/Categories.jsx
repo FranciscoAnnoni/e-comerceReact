@@ -37,7 +37,7 @@ const Categories = () => {
         <NavLink exact to={url} href={url}>
           <div className='box'>
             <img src={cateImg} alt={cateName} />
-            <a activeClassName="active">{cateName}</a>
+            <a href="/">{cateName}</a>
           </div>
         </NavLink>
       </li>
