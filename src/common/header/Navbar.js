@@ -5,14 +5,9 @@ import logo from "../../components/assets/images/empresaria.png"
 import "./Header.css"
 
 const Navbar = () => {
-    window.addEventListener("scroll", function () {
-        const search = document.querySelector(".search")
-        search.classList.toggle("active", window.scrollY > 100)
-      })
     const [MobileMenu, setMobileMenu] = useState(false);
-
     const menuList = MenuList.map(({url, title,url1}, index) => {
-    
+  
         return (
             <li key ={index}>
                <NavLink exact to={url}><a href='/' activeClassName="active">{title}</a></NavLink>
@@ -22,9 +17,8 @@ const Navbar = () => {
 
     return (
 
-  
         <section className='search'>
-        <div className='containerHeader c_flexHeader'>
+        <div className='c_flexHeader'>
           <div className='logo width '>
             <a  href="/"><img src={logo} alt='' width="80" height="80" /></a>
             <a className="logo-letra"  href="/">EMPRESSARIA</a>

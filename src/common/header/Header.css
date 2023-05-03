@@ -35,7 +35,7 @@
   /*------head-----------*/ 
   
   /*------search-----------*/
-  
+
   .navlink ul li a {
     position: relative;
   }
@@ -62,7 +62,11 @@
     padding: 20px;
     height: 95px;
     box-shadow: -1px 11px 24px -11px rgba(0, 0, 0, 0.2);
-  
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 10000000000000000000000;
+    background-color: #fff;
   }
   
   .navlink ul {

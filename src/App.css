@@ -14,8 +14,9 @@ body {
 
 .background {
   background: #f6f9fc;
-  padding: 50px 0;
+  padding: 30px 0;
 }
+
 /* aca esta todo */ /*
 .container {
   max-width: 90%;
@@ -46,9 +47,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-  
-
-
 
 .c_flex {
   display: flex;
