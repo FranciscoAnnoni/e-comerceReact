@@ -1,48 +1,26 @@
-/*
-.atras {
-  position: absolute;
-  top: 140px;
-  left: 200px;
-  display: inline-block;
-  padding: 10px;
-  border-radius: 2px;
 
-  background-color:#8b0024;
-  border: 2px solid #000;
-  color: #fff;
+
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-container img {
+  width: 300px;
 }
 
-.atras:hover {
-  background-color: #fff;
-
-  color: #000;
-  cursor: pointer;
-}
-*/
 
 .product-content2 img {
-    width: 57%;
+    width: 50%;
   }
-  
-  
+
   .product-content2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 2rem;
-    
-  }
-  .img-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .img-container img {
-    width: 400px;
-
   }
   
+
   .img-container2 {
     margin: 1rem 0;
   }
@@ -52,26 +30,23 @@
     margin: 0 auto;
 }
   
-  .main-wrapper {
-    background-color: #f6f9fc;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .container {
+.background {
+  background: #f6f9fc;
+  padding: 30px 0;
+}
+
+.container {
     max-width: 1200px;
     padding: 0 1rem;
     margin: 0 auto;
-  }
+}
   
   .product-div {
-    margin: 2rem 0;
     padding: 2rem 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #fff;
     border-radius: 3px;
-    column-gap: 10px;
   }
 
   .product-div2 .discount{
@@ -92,11 +67,6 @@
     justify-content: center;
   }
 
-  
-  .product-div-left {
-    padding: 20px;
-  }
-  
   .product-div-right {
     padding: 20px;
   }
@@ -110,7 +80,7 @@
   }
   
   .hover-container div {
-    border: 2px solid rgba(161, 47, 66, 0.7);
+    border: 2px solid rgba(174, 174, 174, 0.7);
     padding: 1rem;
     border-radius: 3px;
     margin: 0 4px 8px 4px;
@@ -122,10 +92,7 @@
   .active {
     border-color: rgb(67, 9, 19)!important;
   }
-  
-  .hover-container div:hover {
-    border-color: rgb(67, 9, 19);
-  }
+
   
   .hover-container div img {
     width: 80px;
@@ -183,18 +150,11 @@
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
 .btn-groups button .fas{
     margin-right: 8px;
 }
-.add-cart-btn{
-    background-color: #FF9F00;
-    border: 2px solid #FF9F00;
-    margin-right: 8px;
-}
-.add-cart-btn:hover{
-    background-color: #fff;
-    color: #FF9F00;
-}
+
 .buy-now-btn{
     background-color: #000;
     border: 2px solid #000;

@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from "react"
 import "./Prod.css"
 import { useParams } from "react-router-dom"
-import ShopCart from "./ShopCart"
+import ShopCart from "./ProductoIndividual"
 
 
 const Prod = ({ shopItems }) => {
@@ -65,7 +65,7 @@ const Prod = ({ shopItems }) => {
 
   // Renderizamos el componente
   return (
-    <>
+    <section className='background'>
       <div className="main-wrapper">
         <div className="container">
           <div className="product-div">
@@ -106,8 +106,7 @@ const Prod = ({ shopItems }) => {
      </div>
      </div>
     </div>
-
-    </>
+    </section>
   )
 }
 

@@ -1,6 +1,6 @@
 import React from "react"
 
-import ShopProducts from  "../components/shops/Products/ShopProducts"
+import NuestrosProductos from  "../components/shops/Products/NuestrosProductos"
 import Categories from "../components/shops/Products/categories/Categories"
 
 
@@ -9,8 +9,7 @@ const Products = ({shopItems}) => {
   return (
     <>
       <Categories />
-      <ShopProducts shopItems={(shopItems)}/>
-      
+      <NuestrosProductos shopItems={(shopItems)}/>
     </>
   )
 }

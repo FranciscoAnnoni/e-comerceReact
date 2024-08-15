@@ -50,6 +50,7 @@
   opacity: 0;
   transition: opacity 0.5s ;
   }
+  
   .navlink ul li a.active::after{
     opacity: 0.9;
   }
