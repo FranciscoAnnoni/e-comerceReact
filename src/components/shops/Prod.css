@@ -139,7 +139,26 @@
   .btn-groups {
     margin-top: 22px;
   }
+
+  .volver-container {
+    display: flex;
+    margin-bottom: 20px; /* Espacio debajo del botón */
+  }
   
+  .botonVolver {
+
+    left: 10%; /* Ajusta la distancia desde la derecha */
+    position: absolute;
+    background-color: #771313;
+    font-size: 16px;
+    font-family: inherit;
+    text-transform: uppercase;
+    padding: 15px 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
   .btn-groups button {
     display: inline-block;
     font-size: 16px;
@@ -149,6 +168,7 @@
     color: #fff;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin-right: 10px;
 }
 
 .btn-groups button .fas{
@@ -156,6 +176,7 @@
 }
 
 .buy-now-btn{
+
     background-color: #000;
     border: 2px solid #000;
 }

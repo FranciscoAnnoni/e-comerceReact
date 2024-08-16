@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react"
 import "./Prod.css"
 import { useParams } from "react-router-dom"
 import ShopCart from "./ProductoIndividual"
-
+import { Link } from "react-router-dom"
 
 const Prod = ({ shopItems }) => {
   const idValue = useParams().id
@@ -62,12 +62,23 @@ const Prod = ({ shopItems }) => {
   }
 
   const itemsRecomendados = getRelatedItems(shopItems , object.id);
+   // Obtener el path actual
+   const location = window.location.pathname;
+
+   // Extraer el path original eliminando la última parte después del último '/'
+   const originalPath = location.split('/').slice(0, -1).join('/');
 
   // Renderizamos el componente
   return (
     <section className='background'>
       <div className="main-wrapper">
+
+     
         <div className="container">
+    
+        <Link to={originalPath}>
+      <button className="botonVolver"><i className="fa fa-arrow-left"></i>Volver</button>
+      </Link>
           <div className="product-div">
             <div className="product-div-left">
               <div className="img-container">
@@ -91,7 +102,9 @@ const Prod = ({ shopItems }) => {
            </div>
            <p className="product-description">{object.description}</p>
           <div className="btn-groups">
-          <button type="button" className="buy-now-btn"><i className="fa fa-wallet"></i>  Estoy interesado</button>
+          <button type="button" className="buy-now-btn"><i className="fa fa-envelope"></i>  Enviar mail</button>
+          <button type="button" className="buy-now-btn"><i className="fa fa-comment"></i>  Enviar Mensaje</button>
+          
            </div>
          </div>
 
