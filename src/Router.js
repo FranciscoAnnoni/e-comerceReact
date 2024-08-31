@@ -16,6 +16,7 @@ import Sdata from "./components/InformacionProductos/Sdata.js"
 
 
 import Relojes from "./components/InformacionProductos/Relojes.js"
+import Paraguas from "./components/InformacionProductos/Paraguas.js"
 import RelojesDeMano from "./components/InformacionProductos/RelojesDeMano.js"
 import Lapiceras from "./components/InformacionProductos/Lapiceras.js"
 
@@ -31,6 +32,10 @@ function App() {
 
   //Relojes
   const { relojes } = Relojes;
+
+  
+  //Relojes
+  const { paraguas } = Paraguas;
 
   //Relojes de Mano
   const { relojesDeMano } = RelojesDeMano;
@@ -70,6 +75,7 @@ function App() {
 
           {/*Todos los productos de papa*/}
           
+        
           <Route path='/productos-relojesPared' exact>
           <Products shopItems={(relojes)}/>
           </Route>
@@ -77,6 +83,15 @@ function App() {
           <Route path='/productos-relojesPared/:id' exact>
           <ScrollToTop />
           <Prod shopItems={(relojes)}/>
+          </Route>
+         
+          <Route path='/productos-paraguas' exact>
+          <Products shopItems={(paraguas)}/>
+          </Route>
+          
+          <Route path='/productos-paraguas/:id' exact>
+          <ScrollToTop />
+          <Prod shopItems={(paraguas)}/>
           </Route>
 
           <Route path='/productos-relojesMano' exact>

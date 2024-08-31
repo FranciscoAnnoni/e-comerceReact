@@ -15,9 +15,9 @@ const Categories = () => {
       url: "/productos-relojesPared",
     },
     {
-      cateImg: "./images/category/cat3.png",
-      cateName: "Relojes de Pulsera",
-      url: "/productos-relojesMano",
+      cateImg: "./images/category/cat12.png",
+      cateName: "Paraguas",
+      url: "/productos-paraguas",
     },
     {
       cateImg: "./images/category/cat4.png",
