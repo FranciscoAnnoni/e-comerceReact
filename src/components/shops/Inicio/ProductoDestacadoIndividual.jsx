@@ -1,29 +1,13 @@
 import React from "react"
-import "./ProductoIndibidual.css"
+import "../ProductoIndibidual.css"
 import { Link } from "react-router-dom"
 
-const ShopCart = ({ shopItems}) => {
-  const location = window.location.pathname;
-
-  function hayNumero(texto) {
-    var expresion = /\d+/;
-    return expresion.test(texto);
-  }
-
-  function path(valor){
-    if(valor === '/'){
-      return "/productos";
-    } else if(hayNumero(valor)){
-      return shopItems[0].path;
-    } else return valor;
-  }
-
-
+const ProductoDestacadoIndiviual = ({ shopItems}) => {
   return (
     <>
       {shopItems.map((shopItem, index) => { // add a key prop
         return (
-          <Link exact to={path(location) +"/"+ shopItem.id} key={index}> {/* add a key prop */}
+          <Link exact to={"/"+ shopItem.id} key={index}> {/* add a key prop */}
             <div className='boxProduct'>
               <div className='product mtop'>
                 <div className='img'>
@@ -53,4 +37,4 @@ const ShopCart = ({ shopItems}) => {
   )
 }
 
-export default ShopCart
+export default ProductoDestacadoIndiviual

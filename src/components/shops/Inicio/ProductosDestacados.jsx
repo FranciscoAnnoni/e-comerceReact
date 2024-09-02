@@ -1,5 +1,5 @@
 import React from "react"
-import ShopCart from "../ProductoIndividual"
+import ProductoDestacadoIndiviual from "./ProductoDestacadoIndividual"
 import { Link } from "react-router-dom"
 
 
@@ -16,15 +16,14 @@ const ProductosDestacados = ({shopItems}) => {
               
               <div className='heading-middle'>
                 <h2>Productos Destacados</h2>
-                
+              
               </div>
-
             </div>
 
            {/* Aca cuanta la cantidad de items y a cada uno le aplica el formato de shopsCart*/}
 
-            <div className='product-content  grid1'>
-              <ShopCart shopItems={shopItems} />
+            <div className='grid1'>
+              <ProductoDestacadoIndiviual shopItems={shopItems} />
             </div>
             
            {/*--------------------------------------------------------------------------------*/}

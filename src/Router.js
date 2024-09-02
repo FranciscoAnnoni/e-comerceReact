@@ -74,7 +74,7 @@ function App() {
 
 
           {/*Todos los productos de papa*/}
-          
+   
         
           <Route path='/productos-relojesPared' exact>
           <Products shopItems={(relojes)}/>

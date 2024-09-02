@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -80,47 +82,50 @@ button {
 }
 
 
-/*---------category----------*/
-.btn-primary {
-  background: #e94560;
-  padding: 13px 40px;
-  font-weight: bold;
-  color: #fff;
-  border-radius: 5px;
-}
-.top {
-  margin-top: 80px;
-}
-.mtop {
-  margin-top: 40px;
-}
-.heading i {
-  color: #e94560;
-  margin: 10px;
-}
-.discount {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #e94560;
-  padding: 3px 10px;
-  font-size: 12px;
-  border-radius: 50px;
-  color: #fff;
-  margin: 10px;
-}
+
 /*---------product-----------*/
+.grid1 {
+  
+  place-items: center; 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+div .img{
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;   
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column; /* Organiza los elementos uno debajo del otro */
+  align-items: center;    /* Centra los elementos horizontalmente */
+  text-align: center;     /* Centra el texto dentro de cada elemento */
+}
+
+
+.rate {
+  display: flex;
+  justify-content: center; /* Centra las estrellas horizontalmente */
+}
+
+
+
 .product {
+ 
   background: #fff;
   padding: 20px;
-  position: relative;
   border-radius: 8px;
   box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
   margin: 10px;
 }
+
 .product h3 {
-  font-weight: 400;
-  font-size: 17px;
+  font-weight: 500;
+  font-size: 20px;
+
 }
 .product .rate i {
   font-size: 15px;
@@ -214,15 +219,4 @@ button {
 .heading .heading-right {
   text-align: right;
   color: grey;
-}
-/*----- heading -------*/
-.grid {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 30px;
-}
-.grid2 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
 }

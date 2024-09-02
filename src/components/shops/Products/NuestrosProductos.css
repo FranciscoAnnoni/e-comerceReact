@@ -61,7 +61,24 @@
   height: 90%;
 }
 
-/*caja indibidual del producto*/
-.boxProduct {
 
+/*---------NEW TOP BOTOM----------*/
+.btn-primary {
+  background: #e94560;
+  padding: 13px 40px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.discount {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #e94560;
+  padding: 3px 10px;
+  font-size: 12px;
+  border-radius: 50px;
+  color: #fff;
+  margin: 10px;
 }

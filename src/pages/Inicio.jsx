@@ -9,7 +9,7 @@ const Inicio = ({shopItems}) => {
     <>
       <Home/> 
       <ProductosDestacados shopItems={shopItems}/>
-      <Annocument />
+       {/* <Annocument />  */}
       <Wrapper />
 
     </>
