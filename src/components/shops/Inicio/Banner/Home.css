@@ -1,0 +1,43 @@
+.homeSlide h1 {
+  font-size: 45px;
+  line-height: 55px;
+  margin: 50px 0 20px 0;
+}
+.homeSlide p {
+  margin: 20px 0;
+}
+.homeSlide ul {
+  position: absolute;
+  bottom: 20px;
+}
+.homeSlide ul li {
+  border-radius: 50%;
+  padding: 20px;
+}
+.homeSlide ul li button {
+  background: transparent !important;
+  color: transparent !important;
+}
+.homeSlide ul li button::before {
+  font-size: 25px !important;
+  color:#8b0024;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  margin: auto;
+}
+
+.d_flexCard{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: -10px;
+}
+
+.cursorPointer{
+  cursor: pointer;
+}
+.slick-dots {
+  padding-top: 10px;
+  margin-top: 1000px;
+}

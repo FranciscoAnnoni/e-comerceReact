@@ -7,8 +7,8 @@ export const MenuList = [
   },
   {
     title: "Productos",
-    url: "/productos",
-    url1: ["/productos-todos","/productos-relojesPared","/productos-paraguas","/productos-relojesMano","/productos-lapiceras","/productos-otros"]
+    url: "/productos-relojesPared",
+    url1: ["/productos-mochilas","/productos-todos","/productos-relojesPared","/productos-paraguas","/productos-relojesMano","/productos-lapiceras","/productos-otros"]
   },
   {
     title: "Trabajos Realizados",

@@ -2,11 +2,11 @@
 .containerShop {
   max-width: 100%;
 }
+
 .d_flexShop{
   display: flex;
   justify-content: center;
 }
-
 
 .shop .category {
   padding: 30px;
@@ -41,6 +41,7 @@
   margin-top: 100px !important;
   text-align: center;
 }
+
 .shop .category button {
   padding: 10px;
   background: none;
@@ -49,12 +50,6 @@
   font-weight: 500;
 }
 
-
-
-.shop .product img {
-  width: 100%;
-  height: 100%;
-}
 .shop .product {
   transition: 0.5s;
 }
@@ -66,20 +61,6 @@
 
 .heading-right{
   margin: auto;
-
-}
-button.colorLetra{
-  color:#fff;
-  margin-top: 10px;
-  background: #8b0024; 
-  font-weight: bold; 
-  color: #fff; 
-  border-radius: 10px;
-  border: none;
-  padding-block: 15px;
-  padding-inline: 46px;
-  text-align: center;
-  width: 180px;
 }
 
 .heading-right.row {
@@ -88,15 +69,145 @@ button.colorLetra{
   text-align: center;
 
 }
-button.colorLetra:hover{
-  background: rgb(93, 60, 60);
-  box-shadow: rgb(3 0 71 / 35%) 0px 1px 4px;
-  transition: 0.3s;
+
+
+
+
+.product img {
+  width: 50%;
+  height: 50%;
 }
 
-.heading-middle{
-  margin: auto;
-  text-align: center;
-  padding-block: 15px;
+.product {
+  width: 95%;
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
+  margin: 10px;
+}
+
+.product h3 {
+  font-weight: 500;
   font-size: 20px;
+}
+
+.product .rate i {
+  font-size: 15px;
+  color: #ffcd4e;
+  margin: 5px 5px 5px 0;
+}
+
+.product .price {
+  display: flex;
+  justify-content: space-between;
+  color: #e94560;
+}
+.price button {
+  background: none;
+  color: #e94560;
+  font-size: 20px;
+  transition: 0.5s;
+  border: 1px solid rgb(3 0 71 / 9%);
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+}
+.price button:hover {
+  cursor: pointer;
+  background-color: #e94560;
+  color: #fff;
+}
+
+
+/*---------product-----------*/
+.grid1 {
+  place-items: center; 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+div .img{
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;   
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column; /* Organiza los elementos uno debajo del otro */
+  align-items: center;    /* Centra los elementos horizontalmente */
+  text-align: center;     /* Centra el texto dentro de cada elemento */
+}
+
+
+.price button:hover {
+  cursor: pointer;
+  background-color: #e94560;
+  color: #fff;
+}
+
+.product-like {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+/*---------product-----------*/
+/*----- control btn -------*/
+.control-btn .next,
+.control-btn .prev {
+  position: absolute;
+  top: 40%;
+  width: 50px;
+  height: 50px;
+  line-height: 60px;
+  background: #0f3460;
+  border-radius: 50%;
+  transform: 0.5s;
+  z-index: 5;
+}
+.control-btn .prev {
+  left: -20px;
+}
+.control-btn .next {
+  right: -20px;
+}
+.control-btn .prev i,
+.control-btn .next i {
+  font-size: 20px;
+  transition: 0.5s;
+  color: #fff;
+}
+.control-btn .prev:hover,
+.control-btn .next:hover {
+  background: #e94560;
+  color: white;
+  cursor: pointer;
+}
+/*----- control btn -------*/
+/*----- heading -------*/
+.heading .heading-left i {
+  font-size: 30px;
+}
+.heading .heading-left h2 {
+  font-size: 25px;
+  margin: 5px;
+}
+.heading .heading-right i,
+.heading .heading-right {
+  text-align: right;
+  color: grey;
+}
+
+/*-------- Wrraper ----------*/
+.centrar {
+  flex-direction: column; /* Organiza los elementos uno debajo del otro */
+  align-items: center;    /* Centra los elementos horizontalmente */
+  text-align: center; 
+  padding-bottom: 30px;
 }

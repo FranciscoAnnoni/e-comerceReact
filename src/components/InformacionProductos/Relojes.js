@@ -8,7 +8,7 @@ const Relojes = {
       cover2: "./images/relojes/1a-reloj-colores.jpg",
       name: "Reloj Grande",
       description: "Este reloj de pared es un accesorio moderno y minimalista con bordes negros, hecho de plástico duro, resistente a golpes y caídas. Los números de tamaño normal son fáciles de leer, y funciona con una pila doble A. Fácil de instalar con su soporte para colgar, y su tamaño de 200x200mm lo hace perfecto para cualquier pared estándar. Un producto elegante y funcional para decorar cualquier ambiente.",
-      price: "5",
+      price: "R1",
       discount: "2",
     },
     {
@@ -19,7 +19,7 @@ const Relojes = {
       cover2: "./images/relojes/1b-reloj-colores.jpg",
       name: "Reloj Romano",
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.",
-      price: "5",
+      price: "R2",
       discount: "2",
     },
     {
@@ -30,7 +30,7 @@ const Relojes = {
       cover2: "./images/relojes/2a-reloj-colores.jpg",
       name: "Reloj de Cocacola V1",
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.",
-      price: "5",
+      price: "R3",
       discount: "2",
     },
     {
@@ -41,7 +41,7 @@ const Relojes = {
       cover2: "./images/relojes/2b-reloj-colores.jpg",
       name: "Reloj de Cocacola V2",
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.",
-      price: "5",
+      price: "R4",
       discount: "2",
     },
     {
@@ -52,7 +52,7 @@ const Relojes = {
       cover2: "./images/relojes/3a-reloj-colores.jpg",
       name: "Reloj grande",
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.",
-      price: "5",
+      price: "R5",
       discount: "2",
     },
     {
@@ -63,7 +63,7 @@ const Relojes = {
       cover2: "./images/relojes/3b-reloj-colores.jpg",
       name: "Reloj grande",
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.",
-      price: "5",
+      price: "R6",
       discount: "2",
     },
     {
@@ -74,7 +74,7 @@ const Relojes = {
       cover2: "./images/relojes/4a-reloj-colores.jpg",
       name: "Reloj grande",
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.",
-      price: "5",
+      price: "R7",
       discount: "2",
     },
     {
@@ -85,7 +85,7 @@ const Relojes = {
       cover2: "./images/relojes/4b-reloj-colores.jpg",
       name: "Reloj grande",
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.",
-      price: "5",
+      price: "R8",
       discount: "2",
     },
   ],

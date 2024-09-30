@@ -1,19 +1,18 @@
-import Home from "../components/Banner/Home"
-import ProductosDestacados from "../components/shops/Inicio/ProductosDestacados"
-import Annocument from "../components/annocument/Annocument"
-import Wrapper from "../components/NuestrosClientes/Wrapper"
+import React from 'react';
+import Home from "../components/shops/Inicio/Banner/Home";
+import Wrapper from "../components/shops/Inicio/NuestrosClientes/Wrapper";
+import ProductosDestacados from "../components/shops/Inicio/ProductosDestacados/ProductosDestacados";
 
-const Inicio = ({shopItems}) => {
+const Inicio = ({ shopItems }) => {
 
   return (
-    <>
-      <Home/> 
-      <ProductosDestacados shopItems={shopItems}/>
-       {/* <Annocument />  */}
-      <Wrapper />
-
+    <> 
+        <Home /> 
+        <ProductosDestacados shopItems={shopItems} />
+        {/* <Annocument />  */}
+        <Wrapper />
     </>
-  )
-}
+  );
+};
 
-export default Inicio
+export default Inicio;

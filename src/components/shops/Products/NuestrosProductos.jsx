@@ -7,7 +7,7 @@ const Shop = ({shopItems}) => {
   return (
     <>
     
-      <section className='shop background'>
+      <section className='shop background_Productos'>
         <div className='containerShop d_flexShop1'>
 
           <div className='contentWidth'>

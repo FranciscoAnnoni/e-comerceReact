@@ -40,7 +40,7 @@ const ShopCart = ({ shopItems}) => {
                     <i className="fa fa-star"></i>
                   </div>
                   <div className="price">
-                    <h4>${shopItem.price}.00</h4>
+                    <h4>{shopItem.price}</h4>
                   </div>
                 </div>
 

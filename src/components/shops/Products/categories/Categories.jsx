@@ -5,11 +5,6 @@ import { NavLink } from "react-router-dom"
 const Categories = () => {
   const data = [
     {
-      cateImg: "./images/category/cat1.png",
-      cateName: "Todos los Productos",
-      url: "/productos",
-    },
-    {
       cateImg: "./images/category/cat2.png",
       cateName: "Relojes de Pared",
       url: "/productos-relojesPared",
@@ -23,6 +18,11 @@ const Categories = () => {
       cateImg: "./images/category/cat4.png",
       cateName: "Lapiceras",
       url: "/productos-lapiceras",
+    },
+    {
+      cateImg: "./images/category/cat13.png",
+      cateName: "Mochilas",
+      url: "/productos-mochilas",
     },
     {
       cateImg: "./images/category/cat5.png",

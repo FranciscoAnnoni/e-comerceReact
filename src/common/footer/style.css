@@ -41,3 +41,7 @@ footer .box{
   padding-block: 15px;
 
 }
+
+footer .pointer {
+  cursor: pointer;
+}

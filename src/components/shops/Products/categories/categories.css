@@ -1,38 +1,53 @@
-.category{
-    z-index:1;
-    position: absolute;
-    margin-left: 80px;
-    margin-top: 165px;
+.products-container {
+  background: #f6f9fc;
+  display: flex;
+  align-items: flex-start; /* Alinea las categorías y los productos en la parte superior */
+  width: 100%;
+  padding-bottom: 35px;
 }
 
 /*---------category----------*/
-.contentWidth {
-    width: 70%;
-  }
-  .category {
-    box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
-    background-color: #fff;
-    padding: 10px 15px 20px 20px;
-    border-radius: 5px;
-  }
-  .category img {
-    width: 30px;
-    height: 30px;
-    object-fit: contain;
-  }
-  .category a {
-   margin-left: 12px ;
-  }
+.category {
+  width: 20%; /* Establece el ancho para las categorías */
+  box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+  background-color: #fff;
+  padding: 10px 15px 20px 20px;
+  border-radius: 5px;
+  margin-right: 30px; /* Espacio entre categorías y productos */
+  margin-left: 30px;
+  position: sticky; /* Hace que las categorías sean fijas cuando se desplaza */
+  top: 150px; /* Ajusta la posición desde la parte superior */
+}
 
+.category img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.category a {
+  margin-left: 12px;
+}
 
 .category .box {
   display: flex;
   transition: 0.5s;
-  align-items: center;     /* Alinea verticalmente en el centro */
+  align-items: center; /* Alinea verticalmente en el centro */
 }
 
-  .category ul li  a.active {
-    font-size:17px;
-    font-weight: 900;
+.category ul li a.active {
+  font-size: 17px;
+  font-weight: 900;
+}
 
-  }
+/*---------NuestrosProductos-----------*/
+.contentWidth {
+  width: 80%; /* Deja espacio para las categorías */
+}
+
+.gridProduct {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
