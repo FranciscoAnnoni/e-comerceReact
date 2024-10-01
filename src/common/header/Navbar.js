@@ -39,6 +39,7 @@ const Navbar = () => {
     );
   });
 
+
   return (
     <section className="search">
       <div className="c_flexHeader">
@@ -73,7 +74,7 @@ const Navbar = () => {
         <div className="Contacto">
           <div className="clickable-link">
             <a href="https://wa.me/5491123993018" target="_blank" rel="noopener noreferrer">
-              <i className="fa-brands fa-whatsapp fa-lg"></i>
+              <i className="fa fa-brands fa-whatsapp fa-lg"></i>
               <span className="hide-text">+54 11 2399-3018</span>
             </a>
 

@@ -105,8 +105,37 @@ i {
     margin-right: 5px;
 }
 
+
+
+
+
 /*------ Media Queries (max-width: 1130px) ------*/
-@media (max-width: 1130px) {
+@media (max-width: 1383px) {
+    .hide-text {
+        display: none;
+    }
+}
+
+@media (min-width: 1151px) {
+    .navlink ul {
+        display: flex; /* Para que el menú se alinee horizontalmente */
+        position: relative;
+        height: auto;
+        width: auto;
+    }
+
+    .close, .open {
+        display: none;
+    }
+
+    .nav-links-MobileMenu {
+        display: none; /* Ocultar el menú responsivo */
+    }
+}
+
+
+/*------ Media Queries (max-width: 1130px) ------*/
+@media (max-width: 1150px) {
     /* Header Adjustments */
     .logo-letra {
         margin-left: 30px;
@@ -118,25 +147,26 @@ i {
     }
 
     .navlink ul {
-        padding-top: 30px;
+        padding-top: 20px;
     }
 
-    /* Navigation Links */
-    .nav-links-MobileMenu {
-        position: absolute;
-        display: block;
-        list-style: none;
-        box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-        left: 0;
-        top: 0;
-        transition: all 0.5s ease-in-out;
-        width: 60%;
-        height: 100vh;
-        background-color: white;
-        z-index: 888;
-    }
+/* Navigation Links */
+.nav-links-MobileMenu {
+    position: absolute;
+    right: 0px;
+    margin-left: auto;
+    padding-top: 40px;
+    top:96px;
+    box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: all 0.5s ease-in-out;
+    padding: 15px;
+    background-color: white;
+}
+
+
 
     .navlink ul li {
+        padding-left: 10px;
         width: 100%;
         transition: all 0.5s ease-in-out;
         text-transform: uppercase;
@@ -147,32 +177,22 @@ i {
         display: none;
     }
 
+    .fa{
+    display:none;
+    }
+
     /* Button Toggle */
     .close,
     .open {
         position: absolute;
         top: 35px;
-        right: 20px;
+        right: 35px;
         color: #000000;
         display: block;
-        font-size: 25px;
-        z-index: 999;
+        font-size: 27px;
     }
 
-    .close {
-        right: 45%;
-    }
-
-    .close.home-btn {
-        background: linear-gradient(145deg, #e2e8ec, #ffffff);
-        color: #000000;
-        border-radius: 40%;
-        padding: 0;
-        width: 60px;
-        height: 60px;
-        line-height: 60px;
-    }
-
+    
     /* Adjustments to Search Header */
     .search.active {
         height: 10vh;
