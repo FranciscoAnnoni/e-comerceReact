@@ -43,12 +43,12 @@ const Navbar = () => {
   return (
     <section className="search">
       <div className="c_flexHeader">
-        <div className="logo width">
-          <a href="/">
-            <img src={logo} alt="" width="80" height="80" />
+        <div className="logo">
+          <a className="logo-reloj" href="/">
+            <img  className="imagenLogo" src={logo} alt="relojEmpresaria"/>
           </a>
           <a className="logo-letra" href="/">
-            EMPRESSARIA
+            <label className="logo-letra-empresaria">EMPRESSARIA</label>
           </a>
         </div>
 

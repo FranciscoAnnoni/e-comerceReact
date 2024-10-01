@@ -20,7 +20,14 @@ i {
     margin-right: 5px;
 }
 
+
+
 /*------ Header ------*/
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+
 .logo {
     margin-left: 30px;
     margin-top: -10px;
@@ -194,9 +201,36 @@ i {
         font-size: 27px;
     }
 
-    
     /* Adjustments to Search Header */
     .search.active {
         height: 10vh;
     }
+}
+
+@media (max-width: 490px) {
+
+    a.logo-letra {
+        color: rgb(0, 0, 0);
+        font-size: 23px;
+        display: flex;
+        text-align: center;
+
+        
+    }
+    .logo{
+        margin-left:0px;
+        margin-top: 0px;
+    }
+
+    /*------ Header ------*/
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+.logo-letra-empresaria{
+margin-top: 20px;
+margin-left: -35PX;
+}
+
+    
 }

@@ -81,12 +81,17 @@ button.colorLetra:hover{
 
 
 .grid1 {
-  margin: 0 auto;
-  place-items: center; 
-  display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
+  grid-gap: 5px;
 }
 
 
+}
+
+
+@media (max-width: 490px) {
+  .grid1 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+  }
 }
