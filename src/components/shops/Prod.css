@@ -141,7 +141,6 @@
   }
   
   .botonVolver {
-
     left: 10%; /* Ajusta la distancia desde la derecha */
     position: absolute;
     background-color: #771313;
@@ -171,7 +170,6 @@
 }
 
 .buy-now-btn{
-
     background-color: #000;
     border: 2px solid #000;
 }
@@ -180,3 +178,49 @@
     color: #000;
 }
 
+/*-------- Wrraper ----------*/
+.centrar {
+  flex-direction: column; /* Organiza los elementos uno debajo del otro */
+  align-items: center;    /* Centra los elementos horizontalmente */
+  text-align: center; 
+  padding-bottom: 30px;
+}
+
+  /*------ Media Queries (max-width: 1130px) ------*/
+  @media (max-width: 1475px) {
+
+    .img-container img {
+      width: 300px;
+  }
+  
+      .botonVolver{
+        left: auto; /* Ajusta la distancia desde la derecha */
+        position: absolute;
+        background-color: #771313;
+        font-size: 16px;
+        font-family: inherit;
+        text-transform: uppercase;
+        padding: 15px 16px;
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+    }
+}
+  /*------ Media Queries (max-width: 1130px) ------*/
+  @media (max-width: 1150px) {
+
+    .img-container img {
+      width: 200px;
+  }
+     
+}
+
+  /*------ Media Queries (max-width: 1130px) ------*/
+@media (max-width: 800px) {
+
+  .hide-text-prod{
+    display:none;
+  }
+     
+}

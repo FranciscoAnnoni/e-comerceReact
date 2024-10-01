@@ -7,8 +7,9 @@ export default function Wrapper() {
       <div className="heading-middle">
         <h2>Nuestros Clientes</h2>
       </div>
-      <div className="centrar">
-        <img src="./images/clientes.jpg" alt="Clientes" />
+      <div className="centrar imagenClientes2">
+      <img src="./images/clientes2.png" alt="Clientes2" />
+      <img src="./images/clientes3.jpg" alt="Clientes3" />
       </div>
     </section>
   );

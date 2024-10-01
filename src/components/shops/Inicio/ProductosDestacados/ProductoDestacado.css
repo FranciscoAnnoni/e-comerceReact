@@ -75,3 +75,18 @@ button.colorLetra:hover{
     box-shadow: rgb(3 0 71 / 35%) 0px 1px 4px;
     transition: 0.3s;
   }
+
+  /*------ Media Queries (max-width: 1130px) ------*/
+@media (max-width: 870px) {
+
+
+.grid1 {
+  margin: 0 auto;
+  place-items: center; 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+
+}

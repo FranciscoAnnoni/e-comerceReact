@@ -73,13 +73,13 @@ const Navbar = () => {
         {/* Sección de contacto */}
         <div className="Contacto">
           <div className="clickable-link">
-            <a href="https://wa.me/5491123993018" target="_blank" rel="noopener noreferrer">
+            <a className="whatsapp" href="https://wa.me/5491123993018" target="_blank" rel="noopener noreferrer">
               <i className="fa fa-brands fa-whatsapp fa-lg"></i>
               <span className="hide-text">+54 11 2399-3018</span>
             </a>
 
             <div>
-              <a
+              <a  className="mail"
                 href="https://mail.google.com/mail/?view=cm&fs=1&to=ambrogioannoni@gmail.com&su=Consulta%20Web"
                 target="_blank"
                 rel="noopener noreferrer"

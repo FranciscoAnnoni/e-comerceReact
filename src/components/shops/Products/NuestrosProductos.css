@@ -73,3 +73,26 @@
   color: #fff;
   margin: 10px;
 }
+
+  /*------ Media Queries (max-width: 1130px) ------*/
+  @media (max-width: 990px) {
+
+    .gridProduct {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+    }
+    
+    }
+
+      /*------ Media Queries (max-width: 1130px) ------*/
+  @media (max-width: 550px) {
+
+    .gridProduct {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 10px;
+    }
+    
+
+    }

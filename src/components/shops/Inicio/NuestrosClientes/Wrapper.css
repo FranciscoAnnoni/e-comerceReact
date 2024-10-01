@@ -6,7 +6,6 @@
   background-color: rgb(255, 255, 255);
 }
 
-
 .wrapper .img {
   margin: auto;
   width: 70px;
@@ -30,4 +29,21 @@
 }
 h2 {
   font-size: 35px;
+}
+
+@media (max-width: 1550px) {
+
+  .imagenClientes2 {
+    display: flex; /* Asegúrate de que el contenedor sea flex */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente, si el contenedor tiene altura definida */
+}
+
+.imagenClientes2 img {
+    width: 50%; /* Ajusta el ancho de la imagen */
+    margin: auto; /* Centra la imagen dentro del contenedor */
+    display: block; /* Asegúrate de que la imagen sea un bloque para que margin auto funcione */
+}
+
+
 }

@@ -102,7 +102,7 @@ useEffect(() => {
       <div className="main-wrapper">
         <div className="container">
           <Link to={originalPath}>
-            <button className="botonVolver"><i className="fa fa-arrow-left"></i>Volver</button>
+            <button className="botonVolver"><i className="fa fa-arrow-left"></i><span className="hide-text-prod">Volver</span></button>
           </Link>
           <div className="product-div">
             <div className="product-div-left">

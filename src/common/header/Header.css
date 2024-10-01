@@ -163,8 +163,6 @@ i {
     background-color: white;
 }
 
-
-
     .navlink ul li {
         padding-left: 10px;
         width: 100%;
@@ -177,8 +175,12 @@ i {
         display: none;
     }
 
-    .fa{
+    .mail{
     display:none;
+    }
+
+    .whatsapp{
+        display:none;
     }
 
     /* Button Toggle */
