@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# ⏰ Empressaria
+Empressaria is an e-commerce website designed to facilitate product browsing in a simple and efficient way. This project displays a product list stored in a JSON file, dynamically queried to extract information and display images for each product, without needing a database connection. It is an ideal project to showcase a static and functional product catalog.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+Product Catalog: A product list loaded from a JSON file, allowing for quick updates and management.
+Image Display: Each product includes an associated image stored locally or accessible by URL.
+Routing System: A router implementation manages the routes (/) for each section of the menu, enabling smooth navigation between different parts of the page.
+Modular Code: JavaScript modules are used for continuous code reuse, making maintenance and future extensions easier.
+Simple and Responsive Design: The interface is designed to adapt to different screen sizes, providing a user-friendly experience on both computers and mobile devices.
 
-## Available Scripts
+## Requirements
+To use or modify Empressaria, a modern web browser that supports JavaScript and ES6 modules is required.
 
-In the project directory, you can run:
+## Future Improvements
+Potential future improvements include:
 
-### `npm start`
+## Adding shopping cart functionality.
+Integrating a database to manage larger volumes of products.
+Implementing a payment gateway.
+Accessibility enhancements and interface design improvements.
+Contributions
+This project was created for personal use, but any contributions, suggestions, or feedback are welcome. If you have ideas or want to collaborate, open an issue or submit a pull request.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
